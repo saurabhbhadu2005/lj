@@ -1,0 +1,49 @@
+.nav-item{
+padding:10px;
+font-weight:503;
+font-family: sans-serif;
+}
+.navbar-brand{
+    font-weight:503;
+    font-family: sans-serif; 
+}
+.img{
+    position: relative;
+}
+.color{
+    background-color: rgba(0, 0, 0, 0.149);
+}
+.baner{
+    width: 100%;
+    height:700px;
+}
+.banner-text{
+    position: absolute;
+    top:20%;
+    left:7%;
+    display:block;
+    margin: auto;
+}
+.conatiner-col{
+    height: 100vh;
+    background: url(carousel-1.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    position: relative;
+    }
+    .conatiner-col::before{
+        content: "";
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .conatiner-col>h2{
+        padding-top: 17%;
+        padding-left: 5%;
+    }
+    
